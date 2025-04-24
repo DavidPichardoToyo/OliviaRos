@@ -8,6 +8,21 @@
     margin-left: 10%;
 }
 
+#button1 {
+    border-color: #17A2B8;
+    color: white;
+}
+
+#button2 {
+    background-color: #17A2B8;
+}
+
+.acerca {
+    padding: 5%;
+    text-align: center;
+}
+
 #trabajos {
     background-color: #17A2B8;
+    padding: 10%;
 }

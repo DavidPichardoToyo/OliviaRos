@@ -29,41 +29,43 @@
               <li class="nav-item dropdown">
                 <a class="nav-link active" aria-current="page" href="#">Contacto</a>
     </nav>
+
+    <!--Sección de header-->
     <header class="text-light text-end">
         <div class="conteiner">
             <div class="card text-bg-dark">
                 <img src="assets/img/bg-hero.jpg" class="card-img" alt="fondo">
                 <div class="card-img-overlay">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                  <button type="button" class="btn btn-outline-primary">Primary</button>
-                  <button type="button" class="btn btn-primary">Primary</button>
+                  <h1 class="card-title">Comidas del fin del mundo</h1>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, perspiciatis. Dolorum atque voluptatibus cum voluptatum nesciunt aliquid ut, voluptas adipisci optio eius libero iure suscipit</p>
+                  <button id="button1" type="button" class="btn btn-outline-primary">Trabajos</button>
+                  <button id="button2" type="button" class="btn btn-primary">Trabajos</button>
                 </div>
               </div>            
     </header>
 
-    <section>
-        <h2>Acerca de mí</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ullam dicta cum velit accusantium. Reiciendis accusantium, eos magnam error, sed minima officiis provident quos laboriosam quam et suscipit doloremque maxime.</p>
+    <!--Sección Acerca de mí-->
+    <section class="acerca">
+        <h2 style="font-weight: 400;" class="display-3 text-center"><strong>Acerca de mí</strong></h2>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ullam dicta cum velit accusantium.</p>
         <div class="card-group">
           <div class="card">
             <div class="card-body">
-              <i class="fa-solid fa-camera"></i>
+              <i class="fa fa-bars fa-3x fa-solid fa-camera"></i>
               <h5 class="card-title">Fotógrafa de comida</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
           <div class="card"> 
             <div class="card-body">
-              <i class="fa-solid fa-bullhorn"></i>
+              <i class="fa fa-bars fa-3x fa-solid fa-bullhorn"></i>
               <h5 class="card-title">Crítica culinaria</h5>
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <i class="fa-regular fa-map"></i>
+              <i class="fa fa-bars fa-3x fa-regular fa-map"></i>
               <h5 class="card-title">Bloggera de viajes</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             </div>
@@ -71,43 +73,48 @@
         </div>
     </section>
 
+    <!--Sección mis trabajos-->
     <section id="trabajos">
+      <h2 style="font-weight: 600;" class="display-4 text-light text-center">Mis trabajos</h2>
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="assets/img/card-1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Asado en la Patagonia</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <button type="button" class="btn btn-outline-secondary">Ver más</button>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="assets/img/card-2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Papas del fin del mundo</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <button type="button" class="btn btn-outline-secondary">Ver más</button>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="assets/img/card-3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Salmones de Alaska</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <button type="button" class="btn btn-outline-secondary">Ver más</button>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!--Sección Contactame-->
     <section>
-
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
       </div>
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
@@ -117,7 +124,12 @@
         <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escriba aquí su mensaje" rows="3"></textarea>
       </div>
+      <button type="button" class="btn btn-info">Enviar</button>
     </section>
+
+    <footer class="bg-dark text-center text-light p-4">
+      <p class="mb-0">Olivia Ros 2019. Todos los derechos reservados.</p>
+    </footer>
       
 
 
